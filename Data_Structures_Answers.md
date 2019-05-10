@@ -12,10 +12,12 @@ Add your answers to the questions below.
    O(n)
 
 5. What is the runtime complexity of the provided code in `names.py`?
-   O(n^3)
+   O(n^2)
 6. What is the space complexity of the provided code in `names.py`?
-   O(n\*3)
+   O(1)
+   We get this because by the time we get to the actual operation it doesn't case the space needed in memory to grow in size
+
 7. What is the runtime complexity of your optimized code in `names.py`?
    O(n log(n))
 8. What is the space complexity of your optimized code in `names.py`?
-   O(n\*4)
+   O(n)
